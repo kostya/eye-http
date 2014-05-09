@@ -1,4 +1,5 @@
-# Eye::Http
+Eye::Http
+---------
 
 Http interface for the [Eye](http://github.com/kostya/eye) gem.
 
