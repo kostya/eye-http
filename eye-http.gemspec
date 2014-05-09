@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'eye'
-  spec.add_dependency 'reel',          '~> 0.5.0'
+  spec.add_dependency 'reel',     '~> 0.5.0'
   spec.add_dependency 'reel-rack'
   spec.add_dependency 'cuba'
 
