@@ -17,7 +17,7 @@ class Eye::Http
 
   def start
     stop
-    @server = Reel::Rack::Server.supervise(@router, :Host => @host, :Port => port)
+    @server = Reel::Rack::Server.new(@router, :Host => @host, :Port => port)
   end
 
   def stop
