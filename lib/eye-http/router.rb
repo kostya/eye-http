@@ -11,8 +11,10 @@ Eye::Http::Router = Cuba.new do
     res.write Eye::ABOUT
   end
 
-  on "api/info", param("filter") do |filter|
-    json Eye::Control.command(:info_data, filter)
+  [:info_data, :short_data, :debug_data, :history_data].each do |act|
+    on "api/#{act.to_s.gsub(/_data$/, '')}", param("filter") do |filter|
+      json Eye::Control.command(act, filter)
+    end
   end
 
   [:start, :stop, :restart, :delete, :unmonitor, :monitor].each do |act|
