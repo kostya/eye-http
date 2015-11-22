@@ -8,6 +8,15 @@ Http interface for the [Eye](http://github.com/kostya/eye) gem.
     gem install eye
     gem install eye-http
 
+## Gemfile
+
+```ruby
+group 'eye' do
+  gem 'eye'
+  gem 'eye-http'
+end
+```
+
 ## Usage
 
 Example config:
