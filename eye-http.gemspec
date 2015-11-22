@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'eye',      '~> 0.7.0'
+  spec.add_dependency 'eye',      '~> 0.8.rc'
   spec.add_dependency 'reel',     '~> 0.5.0'
   spec.add_dependency 'reel-rack'
   spec.add_dependency 'cuba'
