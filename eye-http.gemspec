@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'eye',      '~> 0.9'
   spec.add_dependency 'reel',     '~> 0.6'
-  spec.add_dependency 'reel-rack'
+  spec.add_dependency 'reel-rack', '0.2.3'
   spec.add_dependency 'cuba'
 
   spec.add_development_dependency "bundler", "~> 1.6"

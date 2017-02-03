@@ -1,5 +1,5 @@
 gem 'reel', '~> 0.6'
-gem 'reel-rack'
+gem 'reel-rack', '0.2.3'
 gem 'cuba'
 
 require 'reel/rack/server'
