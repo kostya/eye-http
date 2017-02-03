@@ -1,4 +1,4 @@
-gem 'reel', '~> 0.5.0'
+gem 'reel', '~> 0.6'
 gem 'reel-rack'
 gem 'cuba'
 
