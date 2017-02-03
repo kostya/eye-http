@@ -1,5 +1,5 @@
 module Eye
   class Http
-    VERSION = "0.8.rc"
+    VERSION = "0.9"
   end
 end
