@@ -2,6 +2,7 @@ gem 'reel', '~> 0.6'
 gem 'reel-rack', '0.2.3'
 gem 'cuba'
 
+Celluloid::Logger = Celluloid::Internals::Logger unless defined?(Celluloid::Logger)
 require 'reel/rack/server'
 
 class Eye::Http
